@@ -1,0 +1,157 @@
+---
+---
+
+@charset "utf-8";
+
+// Our variables
+//$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+//$base-font-size: 16px;
+//$base-font-weight: 400;
+//$small-font-size: $base-font-size * 0.875;
+//$base-line-height: 1.5;
+//
+//$spacing-unit: 30px;
+//
+//$text-color: #111;
+//$background-color: #fdfdfd;
+//$brand-color: #2a7ae2;
+//
+//$grey-color: #828282;
+//$grey-color-light: lighten($grey-color, 40%);
+//$grey-color-dark: darken($grey-color, 25%);
+//
+//// Width of the content area
+//$content-width: 800px;
+//
+//$on-palm: 600px;
+//$on-laptop: 800px;
+//
+//// Use media queries like this:
+//// @include media-query($on-palm) {
+////     .wrapper {
+////         padding-right: $spacing-unit / 2;
+////         padding-left: $spacing-unit / 2;
+////     }
+//// }
+//@mixin media-query($device) {
+//  @media screen and (max-width: $device) {
+//    @content;
+//  }
+//}
+
+@import "colors";
+
+.first-section {
+  padding-top: 50px;
+}
+
+.post {
+  max-height: 700px;
+  height: 700px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.post-overlay {
+  background: linear-gradient(rgba($black-color, 0.3), rgba($black-color, 0.3));
+  width: 100%;
+  padding: 2rem;
+  color: $white-color;
+}
+
+.post-content-wrapper {
+  margin-top: auto;
+  padding-bottom: 2rem;
+}
+
+.header-logo {
+  margin-top: 10px;
+  height: 30px;
+  max-height: 30px;
+}
+
+.footer {
+  background: $white-color;
+  margin-top: 0px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer-logo {
+  max-height: 100px;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.footer-logo-wrapper {
+}
+
+.nav-align-vertical {
+  display: flex;
+  align-items: center;
+}
+
+.footer-container {
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-top-text {
+  align-self: flex-start;
+}
+
+.footer-bottom-text {
+  align-self: flex-end;
+}
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  margin-left: 0 !important;
+  position: absolute;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.navbar-brand-image {
+  height: 30px;
+  margin-top: 10px;
+}
+
+.navbar-link {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+@font-face {
+    font-family: MarcellusSC;
+    src: url(font/MarcellusSC-Regular.ttf);
+}
+
+div {
+  font-family: MarcellusSC, serif;
+  font-size: 1.8rem;
+}
+
+h2 {
+  margin-top: 0px;
+  font-size: 4rem;
+}
+
+.nav-envelope {
+  font-size: 30px !important;
+}
+
+@import "bootstrap-navbar";

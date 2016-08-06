@@ -1,0 +1,9 @@
+---
+layout: default
+title:  "Cześć! Jesteśmy TriWawa!"
+date:   2016-07-02 19:10:36 +0000
+categories: jekyll update
+background: img/cover.jpg
+---
+
+Triathlon to nasza pasja, ale przede wszystkim liczy się uśmiech i zdrowie, po to wspólnie trenujemy. Wynik i kolejne życiówki są dla nas ważne, ale najważniejsi są ludzie, z którymi możemy dzielić się i wspólnie przeżywać nasze sukcesy. Razem trenujemy, kibicujemy i motywujemy się do aktywności!
